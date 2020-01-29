@@ -1,24 +1,5 @@
-# README
+# What's in Here?
+The start of a blog. Thats it. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Summary
+This is purely the blog I have started while I am learning Ruby on Rails. The blog currently just allows new plain articles with a title, more to come
