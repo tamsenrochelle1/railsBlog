@@ -13,3 +13,159 @@
  *= require_tree .
  *= require_self
  */
+ html {
+  min-height: 100%;
+}
+ body {
+   background: url('/blm.jpg') center 90% no-repeat;
+   background-size: "60x80"
+   margin-bottom: 75px;
+   height:100%;
+
+ }
+
+ .table-icon-size {
+   font-size: 15px;
+   margin-left: 2px;
+ }
+
+ .metric-table {
+   background-color: #f5f5f5;
+   border-radius: 4px;
+ }
+
+ .metric-text{
+   text-align: center;
+   font-size: 13px;
+
+ }
+
+ .metric-text-border{
+   text-align: center;
+   font-size: 13px;
+   border-right: 2px solid #ccc;
+ }
+
+ .navbar.navbar-inverse.navbar-static-top {
+   height: 51px;
+ }
+
+ .table-icon-size {
+   font-size: 15px;
+   margin-left: 2px;
+ }
+
+ .navbar-icons {
+   a {
+     vertical-align: middle;
+     padding: 0 15px;
+   }
+   i {
+     font-size: 20px;
+     color: inherit;
+   }
+ }
+
+
+ /* icon links with Font Awesome */
+ a {
+   i {
+     color: #000;
+   }
+
+   &:hover i {
+     color: inherit;
+     text-decoration: none;
+   }
+ }
+
+ .row.extra-bottom-padding {
+   margin-bottom: 15px;
+ }
+
+ .page-header.no-border {
+   margin-bottom: 12px;
+   border: none;
+ }
+
+ .remote-popover:hover {
+   cursor: pointer;
+ }
+
+ .popover-embedded {
+   form {
+     margin: 0;
+     padding: 0;
+   }
+
+   .hidden-content {
+     display: none;
+   }
+ }
+
+ ul.no-bullets {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+ }
+
+ a.google-it {
+   margin-left: 8px;
+ }
+
+ em.placeholder {
+   display: block;
+   padding-top: 5px;
+ }
+
+ .input-guid {
+   width: 330px;
+ }
+
+ .input-navbar-form {
+   width: 300px;
+ }
+
+ /* Copy to clipboard */
+ a .copyable i, .copyable i {
+   color: #08c;
+ }
+ .copyable {
+   .active {
+     opacity: 1.0;
+   }
+   .inactive {
+     opacity: 0.2;
+   }
+   &:hover {
+     cursor: pointer;
+   }
+ }
+ .copy-element {
+   position: relative;
+
+   .element {
+     padding-right: 32px;
+   }
+   .copyable {
+     display: block;
+     position: absolute;
+     top: 7px;
+     right: 4px;
+     font-size: 18px;
+   }
+ }
+ a.copyable {
+   text-decoration: none;
+
+   i {
+     color: #333;
+
+     &.active {
+       color: inherit;
+     }
+     &.inactive {
+       opacity: 1.0;
+     }
+   }
+ }
